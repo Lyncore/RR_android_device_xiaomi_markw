@@ -23,7 +23,6 @@ $(call inherit-product, vendor/xiaomi/markw/markw-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
@@ -389,7 +388,7 @@ PRODUCT_PACKAGES += \
 #Add apps
 PRODUCT_PACKAGES += \
     Browser \
-    Google Camera \
+    GoogleCamera \
 	
 #Google camera libs
 PRODUCT_COPY_FILES += \
@@ -413,22 +412,3 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/googlecamera/lib64/librsjni.so:system/app/GoogleCamera/lib/arm64/librsjni.so
     $(LOCAL_PATH)/googlecamera/lib64/libsmartburst-jni.so:system/app/GoogleCamera/lib/arm64/libsmartburst-jni.so
     $(LOCAL_PATH)/googlecamera/lib64/libvision_face_jni.so:system/app/GoogleCamera/lib/arm64/libvision_face_jni.so
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
