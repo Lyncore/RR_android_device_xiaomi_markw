@@ -186,3 +186,6 @@ ro.sys.fw.trim_enable_memory=2147483648
 
 # WIFI
 wifi.interface=wlan0
+
+#Maintainer 
+ro.rr.maintainer=Lyncore
