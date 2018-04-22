@@ -374,3 +374,61 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
+
+# Google Lens
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/pixelstyle/etc/sysconfig/pixel_2017_exclusive.xml:system/etc/sysconfig/pixel_2017_exclusive.xml \
+    $(LOCAL_PATH)/pixelstyle/etc/sysconfig/pixel_2017.xml:system/etc/sysconfig/pixel_2017.xml \
+    $(LOCAL_PATH)/pixelstyle/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
+    $(LOCAL_PATH)/pixelstyle/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml
+
+# Doze
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
+#Add apps
+PRODUCT_PACKAGES += \
+    Browser \
+    Google Camera \
+	
+#Google camera libs
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/googlecamera/lib64/libadsprpc_app_N.so:system/app/GoogleCamera/lib/arm64/libadsprpc_app_N.so
+    $(LOCAL_PATH)/googlecamera/lib64/libAndroidJniUtilsJni.so:system/app/GoogleCamera/lib/arm64/libAndroidJniUtilsJni.so
+    $(LOCAL_PATH)/googlecamera/lib64/libfacebeautification.so:system/app/GoogleCamera/lib/arm64/libfacebeautification.so
+    $(LOCAL_PATH)/googlecamera/lib64/libfilterframework_jni.so:system/app/GoogleCamera/lib/arm64/libfilterframework_jni.so
+    $(LOCAL_PATH)/googlecamera/lib64/libgcam.so:system/app/GoogleCamera/lib/arm64/libgcam.so
+    $(LOCAL_PATH)/googlecamera/lib64/libgcam_swig_jni.so:system/app/GoogleCamera/lib/arm64/libgcam_swig_jni.so
+    $(LOCAL_PATH)/googlecamera/lib64/libgyrostabilization-jni.so:system/app/GoogleCamera/lib/arm64/libgyrostabilization-jni.so
+    $(LOCAL_PATH)/googlecamera/lib64/libhalide_hexagon_host_app.so:system/app/GoogleCamera/lib/arm64/libhalide_hexagon_host_app.so
+    $(LOCAL_PATH)/googlecamera/lib64/libjni_faceutil.so:system/app/GoogleCamera/lib/arm64/libjni_faceutil.so
+    $(LOCAL_PATH)/googlecamera/lib64/libjni_imgutil.so:system/app/GoogleCamera/lib/arm64/libjni_imgutil.so
+    $(LOCAL_PATH)/googlecamera/lib64/libjni_jpegutil.so:system/app/GoogleCamera/lib/arm64/libjni_jpegutil.so
+    $(LOCAL_PATH)/googlecamera/lib64/libjni_yuvutil.so:system/app/GoogleCamera/lib/arm64/libjni_yuvutil.so
+    $(LOCAL_PATH)/googlecamera/lib64/libJniUtilsJni.so:system/app/GoogleCamera/lib/arm64/libJniUtilsJni.so
+    $(LOCAL_PATH)/googlecamera/lib64/liblensoffsetcalculation-jni.so:system/app/GoogleCamera/lib/arm64/liblensoffsetcalculation-jni.so
+    $(LOCAL_PATH)/googlecamera/lib64/liblightcycle.so:system/app/GoogleCamera/lib/arm64/liblightcycle.so
+    $(LOCAL_PATH)/googlecamera/lib64/libnativehelper_compat_libc++.so:system/app/GoogleCamera/lib/arm64/libnativehelper_compat_libc++.so
+    $(LOCAL_PATH)/googlecamera/lib64/librefocus.so:system/app/GoogleCamera/lib/arm64/librefocus.so
+    $(LOCAL_PATH)/googlecamera/lib64/librsjni.so:system/app/GoogleCamera/lib/arm64/librsjni.so
+    $(LOCAL_PATH)/googlecamera/lib64/libsmartburst-jni.so:system/app/GoogleCamera/lib/arm64/libsmartburst-jni.so
+    $(LOCAL_PATH)/googlecamera/lib64/libvision_face_jni.so:system/app/GoogleCamera/lib/arm64/libvision_face_jni.so
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
