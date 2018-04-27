@@ -34,4 +34,5 @@
          to 75. -->
     <integer name="config_deviceLightCapabilities">75</integer>
 
+
 </resources>
