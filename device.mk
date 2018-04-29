@@ -383,6 +383,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/pixelstyle/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml \
     $(LOCAL_PATH)/pixelstyle/etc/sysconfig/google_build.xml:system/etc/sysconfig/google_build.xml
 
+# Doze
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
 #Add apps
 PRODUCT_PACKAGES += \
     Browser \
